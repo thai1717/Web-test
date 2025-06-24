@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chú Bé Rồng Online - Đăng Nhập</title>
+    <style>
+        body {
+            background-color: orange;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .form-box {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            display: inline-block;
+            width: 90%;
+            max-width: 400px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .server-list {
+            text-align: left;
+            max-height: 150px;
+            overflow-y: auto;
+            margin: 10px 0;
+        }
+        .btn {
+            background-color: orange;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        label {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Chú Bé Rồng Online</h2>
+    <div class="form-box">
+        <form>
+            <input type="text" placeholder="SĐT / Email"><br>
+            <input type="password" placeholder="Mật khẩu"><br>
+            
+            <div class="server-list">
+                <label><input type="radio" name="server"> Server 1 sao</label>
+                <label><input type="radio" name="server"> Server 2 sao</label>
+                <label><input type="radio" name="server"> Server 3 sao</label>
+                <label><input type="radio" name="server"> Server 4 sao</label>
+                <label><input type="radio" name="server"> Server 5 sao</label>
+                <label><input type="radio" name="server"> Super 1</label>
+                <label><input type="radio" name="server"> Vip 2</label>
+                <!-- Thêm các server khác tùy ý -->
+            </div>
+            
+            <label><input type="checkbox"> Tôi không phải là người máy</label><br>
+            <button type="submit" class="btn">Đăng nhập</button>
+        </form>
+    </div>
+
+</body>
+</html>
